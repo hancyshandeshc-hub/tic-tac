@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+body{
+    background-color:skyblue;
+    text-align: center;
+}
+h2{
+    color:red;
+    font-size: 40px;
+
+}
+.container{
+    height: 70vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.game{
+    height: 60vmin;
+    display: flex;
+    width: 60vmin;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 2rem;
+    font-size: 10vmin;
+    color: brown;
+    background-color: white;
+    border: none;
+    justify-content: center;
+}
